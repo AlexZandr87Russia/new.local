@@ -8,7 +8,7 @@
 </head>
 jopaS
 <body>
-
+//Привет с работы
   <div id="header">
     <!-- Верхняя часть страницы -->
     <img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
