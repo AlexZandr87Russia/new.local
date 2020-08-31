@@ -8,7 +8,7 @@
 </head>
 jopaS
 <body>
-//Привет с работы 452 битч 456
+//Привет с работы 452 битч 45644
   <div id="header">
     <!-- Верхняя часть страницы -->
     <img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
