@@ -63,11 +63,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
-  <component name="RunManager" selected="PHP Script.test.php">
+  <component name="RunManager" selected="PHP Script.info.php">
     <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/new.local/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="info.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/info.php">
       <method v="2" />
     </configuration>
     <configuration name="test.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
@@ -91,12 +94,14 @@
       <item itemvalue="PHP Script.test.php" />
       <item itemvalue="PHP Script.test.php (1)" />
       <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Script.info.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.info.php" />
+        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.index.php" />
         <item itemvalue="JavaScript Debug.index.php" />
-        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.test.php (1)" />
       </list>
     </recent_temporary>
