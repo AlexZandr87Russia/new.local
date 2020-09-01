@@ -6,9 +6,9 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="style.css" />
 </head>
-jopaS
+
 <body>
-//Nonono nea
+
   <div id="header">
     <!-- Верхняя часть страницы -->
     <img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
