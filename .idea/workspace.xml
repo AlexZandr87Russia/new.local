@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50d9f666-847f-4c90-9800-f895f8c0437d" name="Default Changelist" comment="01/09/2020_1" />
+    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,27 +17,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="84d23ab2-3eb9-416f-ac2e-ff8bcd148e2f" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/AlexZandr87Russia/dipsy.git" />
-        <option value="https://github.com/AlexZandr87Russia/new.local.git" />
-      </set>
-    </option>
   </component>
   <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="2bc424ad-cd73-4ec3-8348-116e481be4f8" name="localhost" />
+      <server host="localhost" id="14ea7923-1eb1-48dd-9e4c-f4bf0b20bbfa" name="localhost" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
-  <component name="ProjectId" id="1b7ffsKxbfJTmcx0rQTUB04Tb6r" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1guk6VyalgQkZBQId8MIFphBQWx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,395 +36,84 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
-  <component name="RunManager" selected="PHP Script.info.php">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/new.local/index.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="info.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/info.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php">
+  <component name="RunManager" selected="PHP Script.test.php">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.1" />
+          <option name="interpreterName" value="PHP" />
         </PhpTestInterpreterSettings>
       </CommandLine>
       <method v="2" />
     </configuration>
     <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/demo/test.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.1" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.php" />
-      <item itemvalue="PHP Script.test.php" />
-      <item itemvalue="PHP Script.test.php (1)" />
       <item itemvalue="PHP Script.index.php" />
-      <item itemvalue="PHP Script.info.php" />
+      <item itemvalue="PHP Script.test.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.info.php" />
         <item itemvalue="PHP Script.test.php" />
-        <item itemvalue="PHP Script.index.php" />
-        <item itemvalue="JavaScript Debug.index.php" />
-        <item itemvalue="PHP Script.test.php (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Dell\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="50d9f666-847f-4c90-9800-f895f8c0437d" name="Default Changelist" comment="" />
-      <created>1587988158399</created>
+      <changelist id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="" />
+      <created>1598971690143</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587988158399</updated>
-      <workItem from="1587988159649" duration="2531000" />
-      <workItem from="1587991283503" duration="301000" />
-      <workItem from="1587991594083" duration="87000" />
-      <workItem from="1587991682902" duration="24000" />
-      <workItem from="1587991925283" duration="375000" />
-      <workItem from="1587992600901" duration="184000" />
-      <workItem from="1588077527990" duration="637000" />
-      <workItem from="1588078642667" duration="19000" />
-      <workItem from="1588078666258" duration="86000" />
-      <workItem from="1588935378064" duration="1819000" />
-      <workItem from="1589013772870" duration="415000" />
-      <workItem from="1589179839571" duration="1062000" />
-      <workItem from="1590065210554" duration="21000" />
-      <workItem from="1590065768292" duration="25000" />
-      <workItem from="1591099302510" duration="666000" />
-      <workItem from="1591099980301" duration="1588000" />
-      <workItem from="1591164134225" duration="1831000" />
-      <workItem from="1591180801100" duration="23000" />
-      <workItem from="1591181669562" duration="5555000" />
-      <workItem from="1591271023195" duration="3097000" />
-      <workItem from="1591336315139" duration="1987000" />
-      <workItem from="1591339156909" duration="767000" />
-      <workItem from="1591684250097" duration="9186000" />
-      <workItem from="1591872872356" duration="630000" />
-      <workItem from="1591874383378" duration="2260000" />
-      <workItem from="1591959250577" duration="6886000" />
-      <workItem from="1592201113225" duration="8941000" />
-      <workItem from="1592306705292" duration="2597000" />
-      <workItem from="1592385360173" duration="5460000" />
-      <workItem from="1592557878632" duration="6346000" />
-      <workItem from="1592914990702" duration="1813000" />
-      <workItem from="1593407176485" duration="3414000" />
-      <workItem from="1598869032524" duration="619000" />
-      <workItem from="1598870979918" duration="3085000" />
-      <workItem from="1598874101510" duration="854000" />
-      <workItem from="1598875483136" duration="1011000" />
-      <workItem from="1598943888362" duration="524000" />
-      <workItem from="1598944413521" duration="2337000" />
-      <workItem from="1598946982229" duration="629000" />
-      <workItem from="1598947700660" duration="6450000" />
+      <updated>1598971690143</updated>
+      <workItem from="1598971693126" duration="1103000" />
     </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1598869578917</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598869578917</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Привет с работы">
-      <created>1598872478649</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1598872478649</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Привет с работы Битч">
-      <created>1598874700043</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1598874700043</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Привет с работы Битч23">
-      <created>1598874810558</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1598874810558</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Привет с работы 452 битч 6666">
-      <created>1598875533686</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1598875533686</updated>
-    </task>
-    <task id="LOCAL-00006" summary="А что делать?">
-      <created>1598875730126</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1598875730126</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Изначальное состояние">
-      <created>1598944581114</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1598944581114</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Изначальное состояние">
-      <created>1598944628243</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1598944628243</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Изначальное состояние">
-      <created>1598944689444</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1598944689444</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Изначальное состояние">
-      <created>1598944737366</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1598944737366</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Изначальное состояние">
-      <created>1598945969356</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1598945969356</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Привет, мир!">
-      <created>1598946032393</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1598946032393</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Привет, мир!">
-      <created>1598959401948</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1598959401948</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Привет, мир!">
-      <created>1598961920892</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1598961920892</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Привет, мир!">
-      <created>1598964714466</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1598964714466</updated>
-    </task>
-    <task id="LOCAL-00016" summary="01/09/2020_1">
-      <created>1598964988734</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1598964988734</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Привет с работы_2" />
-    <MESSAGE value="Привет с 3" />
-    <MESSAGE value="Привет с работы" />
-    <MESSAGE value="Привет с работы 452 битч 456" />
-    <MESSAGE value="Привет с работы Битч" />
-    <MESSAGE value="Привет с работы Битч23" />
-    <MESSAGE value="Привет с работы 452 битч 6666" />
-    <MESSAGE value="А что делать?" />
-    <MESSAGE value="Изначальное состояние" />
-    <MESSAGE value="Привет, мир!" />
-    <MESSAGE value="01/09/2020_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="01/09/2020_1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="67" key="#CLI_Interpreters" timestamp="1598947854751">
+    <state x="348" y="67" key="#CLI_Interpreters" timestamp="1598972887546">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="348" y="67" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1598947854751" />
-    <state x="654" y="275" key="#Notifications" timestamp="1598947054271">
+    <state x="348" y="67" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1598972887546" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598972681859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="654" y="275" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1598947054271" />
-    <state x="475" y="55" key="#PHP" timestamp="1598946225786">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598972681859" />
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598972597341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="55" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1598946225786" />
-    <state x="348" y="67" key="#Servers" timestamp="1598948695457">
+    <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1598972597341" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1598972827903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="348" y="67" key="#Servers/0.0.1536.824@0.0.1536.824" timestamp="1598948695457" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598949341901">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598972827903" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1598972786560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1598949341901" />
-    <state x="484" y="95" key="#test.php" timestamp="1591184011314">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598972786560" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1598972786560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="484" y="95" key="#test.php/0.0.1536.824@0.0.1536.824" timestamp="1591184011314" />
-    <state x="484" y="95" key="#test.php_(1)" timestamp="1591181687724">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598972786560" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1598972786560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="484" y="95" key="#test.php_(1)/0.0.1536.824@0.0.1536.824" timestamp="1591181687724" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1598947790294">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598972786560" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1598972786560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598947790294" />
-    <state x="593" y="332" key="Github.CreateGistDialog" timestamp="1598873633444">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598972786560" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1598972911212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="593" y="332" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1598873633444" />
-    <state x="548" y="279" key="Github.CreatePullRequestDialog" timestamp="1598869421032">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="279" key="Github.CreatePullRequestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869421032" />
-    <state x="647" y="310" key="Github.ShareDialog" timestamp="1598944522324">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598944522324" />
-    <state x="559" y="110" key="Github.UntrackedFilesDialog" timestamp="1598869494406">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="559" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869494406" />
-    <state width="1021" height="212" key="GridCell.Tab.0.bottom" timestamp="1598964960724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1021" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598964960724" />
-    <state width="1021" height="212" key="GridCell.Tab.0.center" timestamp="1598964960724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1021" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598964960724" />
-    <state width="1021" height="212" key="GridCell.Tab.0.left" timestamp="1598964960724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1021" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598964960724" />
-    <state width="1021" height="212" key="GridCell.Tab.0.right" timestamp="1598964960724">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1021" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598964960724" />
-    <state width="1110" height="261" key="GridCell.Tab.1.bottom" timestamp="1598959033723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598959033723" />
-    <state width="1110" height="261" key="GridCell.Tab.1.center" timestamp="1598959033722">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598959033722" />
-    <state width="1110" height="261" key="GridCell.Tab.1.left" timestamp="1598959033722">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598959033722" />
-    <state width="1110" height="261" key="GridCell.Tab.1.right" timestamp="1598959033722">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598959033722" />
-    <state width="1110" height="261" key="GridCell.Tab.2.bottom" timestamp="1598959033723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598959033723" />
-    <state width="1110" height="261" key="GridCell.Tab.2.center" timestamp="1598959033723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1598959033723" />
-    <state width="1110" height="261" key="GridCell.Tab.2.left" timestamp="1598959033723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1598959033723" />
-    <state width="1110" height="261" key="GridCell.Tab.2.right" timestamp="1598959033723">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1110" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1598959033723" />
-    <state x="562" y="133" key="RollbackChangesDialog" timestamp="1598874013771">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="562" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874013771" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1598948557981">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598948557981" />
-    <state x="529" y="117" key="VCS.ChangeListViewerDialog" timestamp="1598874037172">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="529" y="117" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874037172" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598964715881">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598964715881" />
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598875678330">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598875678330" />
-    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1591339921402">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1591339921402" />
-    <state x="568" y="274" key="git4idea.rebase.GitRebaseDialog" timestamp="1598874043819">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="568" y="274" key="git4idea.rebase.GitRebaseDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874043819" />
-    <state x="557" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598869128399">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="557" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869128399" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1598947724910">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598947724910" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/new_local$index_php.dat" NAME="index.php Coverage Results" MODIFIED="1598947744696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598972911212" />
   </component>
 </project>
