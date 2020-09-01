@@ -16,16 +16,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50d9f666-847f-4c90-9800-f895f8c0437d" name="Default Changelist" comment="А что делать?">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/new.local.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
+    <list default="true" id="50d9f666-847f-4c90-9800-f895f8c0437d" name="Default Changelist" comment="Изначальное состояние">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +131,7 @@
       <workItem from="1598874101510" duration="854000" />
       <workItem from="1598875483136" duration="1011000" />
       <workItem from="1598943888362" duration="524000" />
+      <workItem from="1598944413521" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598869578917</created>
@@ -181,7 +175,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598875730126</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Изначальное состояние">
+      <created>1598944581114</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598944581114</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Изначальное состояние">
+      <created>1598944628243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1598944628243</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Изначальное состояние">
+      <created>1598944689444</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598944689444</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +236,8 @@
     <MESSAGE value="Привет с работы Битч23" />
     <MESSAGE value="Привет с работы 452 битч 6666" />
     <MESSAGE value="А что делать?" />
-    <option name="LAST_COMMIT_MESSAGE" value="А что делать?" />
+    <MESSAGE value="Изначальное состояние" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изначальное состояние" />
   </component>
   <component name="WindowStateProjectService">
     <state x="484" y="95" key="#test.php" timestamp="1591184011314">
@@ -244,10 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="279" key="Github.CreatePullRequestDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869421032" />
-    <state x="647" y="310" key="Github.ShareDialog" timestamp="1598874222797">
+    <state x="647" y="310" key="Github.ShareDialog" timestamp="1598944522324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874222797" />
+    <state x="647" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1598944522324" />
     <state x="559" y="110" key="Github.UntrackedFilesDialog" timestamp="1598869494406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -280,10 +296,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="529" y="117" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874037172" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598875731859">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598944695732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598875731859" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598944695732" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598875678330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
