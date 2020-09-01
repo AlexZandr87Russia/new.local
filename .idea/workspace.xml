@@ -17,9 +17,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50d9f666-847f-4c90-9800-f895f8c0437d" name="Default Changelist" comment="Привет, мир!">
-      <change afterPath="$PROJECT_DIR$/ .htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +150,7 @@
       <workItem from="1598943888362" duration="524000" />
       <workItem from="1598944413521" duration="2337000" />
       <workItem from="1598946982229" duration="629000" />
-      <workItem from="1598947700660" duration="3100000" />
+      <workItem from="1598947700660" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1598869578917</created>
@@ -238,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598946032393</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Привет, мир!">
+      <created>1598959401948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598959401948</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,22 +336,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="559" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598869494406" />
-    <state width="1034" height="212" key="GridCell.Tab.0.bottom" timestamp="1598959036168">
+    <state width="1033" height="212" key="GridCell.Tab.0.bottom" timestamp="1598961772406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1034" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598959036168" />
-    <state width="1034" height="212" key="GridCell.Tab.0.center" timestamp="1598959036168">
+    <state width="1033" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598961772406" />
+    <state width="1033" height="212" key="GridCell.Tab.0.center" timestamp="1598961772406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1034" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598959036168" />
-    <state width="1034" height="212" key="GridCell.Tab.0.left" timestamp="1598959036168">
+    <state width="1033" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598961772406" />
+    <state width="1033" height="212" key="GridCell.Tab.0.left" timestamp="1598961772406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1034" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598959036168" />
-    <state width="1034" height="212" key="GridCell.Tab.0.right" timestamp="1598959036168">
+    <state width="1033" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598961772406" />
+    <state width="1033" height="212" key="GridCell.Tab.0.right" timestamp="1598961772406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1034" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598959036168" />
+    <state width="1033" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598961772406" />
     <state width="1110" height="261" key="GridCell.Tab.1.bottom" timestamp="1598959033723">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -391,10 +396,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="529" y="117" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1598874037172" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598946034699">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1598959407048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598946034699" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598959407048" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598875678330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
