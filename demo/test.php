@@ -1,3 +1,2 @@
 <?
-Proverka svyzi iz doma)
-echo "Hello World!";
+echo "Proverka svyzi iz doma)";
