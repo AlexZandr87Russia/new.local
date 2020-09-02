@@ -3,6 +3,7 @@
 setlocale(LC_ALL, 'russian');
 $day = strftime('%d');
 $month = strftime('%m');
+$month = iconv('windows-1251', 'utf-8', $month);
 $year = strftime('%Y');
 ?>
 <!DOCTYPE html>
@@ -65,7 +66,7 @@ $year = strftime('%Y');
   </div>
   <div id="footer">
     <!-- Нижняя часть страницы -->
-    &copy; Супер Мега Веб-мастер, 2000 &ndash; <?="$year"?>
+    &copy; Супер Мега Веб-мастер, 2000 &ndash; <?=$year?>
     <!-- Нижняя часть страницы -->
   </div>
 </body>
