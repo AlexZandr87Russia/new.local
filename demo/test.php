@@ -1,2 +1,2 @@
 <?
-echo "Proverka svyzi iz doma)";
+echo "Proverka svyzi iz doma_2)";
