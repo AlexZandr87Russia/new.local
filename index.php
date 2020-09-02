@@ -1,3 +1,10 @@
+<?php
+// Установка локали и выбор значений даты
+setlocale(LC_ALL, 'russian');
+$data = strftime('%d');
+$month = strftime('%m');
+$year = strftime('%Y');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -21,7 +28,7 @@
     <h1>Добро пожаловать на наш сайт!</h1>
     <!-- Заголовок -->
       <blockquote>
-          <?=strftime('Сегодня %d-%m-%Y')?>
+          <?="$data-$month-$year";?>
       </blockquote>
     <!-- Область основного контента -->
     <h3>Зачем мы ходим в школу?</h3>
@@ -58,7 +65,7 @@
   </div>
   <div id="footer">
     <!-- Нижняя часть страницы -->
-    &copy; Супер Мега Веб-мастер, 2000 &ndash; <?=strftime('%Y')?>
+    &copy; Супер Мега Веб-мастер, 2000 &ndash; <?="$year"?>
     <!-- Нижняя часть страницы -->
   </div>
 </body>
