@@ -1,2 +1,7 @@
 <?
-echo "Proverka svyzi iz doma_2)";
+// Доступ к символу в строке
+$str = 'Вася';
+
+$last = mb_strlen($str);
+
+echo $last;
