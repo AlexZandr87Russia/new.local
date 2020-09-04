@@ -5,6 +5,7 @@ $day = strftime('%d');
 $month = strftime('%m');
 $month = iconv('windows-1251', 'utf-8', $month);
 $year = strftime('%Y');
+ini_set('date.timezone', 'Asia/Yekaterinburg');
 $time = date("H:i:s");
 if($month=="01") $mon="января";
 if($month=="02") $mon="февраля";
