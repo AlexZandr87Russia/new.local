@@ -51,7 +51,7 @@ $welcome = '';
 
   <div id="content">
     <!-- Заголовок -->
-    <h1><?="$welcome"?>, гость!</h1>
+    <h1><?=$welcome?>, гость!</h1>
     <!-- Заголовок -->
       <blockquote>
           <?= "Сегодня $day $mon $year года. Время: $time" ?>
