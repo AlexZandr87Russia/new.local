@@ -1,7 +1,11 @@
 <?
-// Доступ к символу в строке
-$str = 'Вася';
+$shop = true;
+$money = true;
 
-$last = mb_strlen($str);
+if ($shop and $money)
+{
+    echo "Иду в магазаин\n";
+    echo "Покупаю хлеб\n";
+}
 
-echo $last;
+echo "Иду домой";

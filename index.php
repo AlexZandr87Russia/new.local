@@ -19,7 +19,17 @@ if($month=="09") $mon="сентября";
 if($month=="10") $mon="октября";
 if($month=="11") $mon="ноября";
 if($month=="12") $mon="декабря";
-
+/*
+* Получаем текущий час в виде строки от 00 до 23
+* и приводим строку к целому числу от 0 до 23
+*/
+$hour = strftime('%H');
+$welcome = '';
+    if ($hour > '0' and $hour < '6') $welcome = "Доброй ночи";
+    elseif ($hour >= '6' and $hour < '12') $welcome = "Доброе утро";
+    elseif ($hour >= '12' and $hour < '18') $welcome = "Добрый день";
+    elseif ($hour >= '18' and $hour < '23') $welcome = "Добрый вечер";
+    else $welcome = "Доброй ночи";
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,7 +51,7 @@ if($month=="12") $mon="декабря";
 
   <div id="content">
     <!-- Заголовок -->
-    <h1>Добро пожаловать на наш сайт!</h1>
+    <h1><?="$welcome"?>, гость!</h1>
     <!-- Заголовок -->
       <blockquote>
           <?= "Сегодня $day $mon $year года. Время: $time" ?>
