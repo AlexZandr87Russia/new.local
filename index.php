@@ -23,7 +23,7 @@ if($month=="12") $mon="декабря";
 * Получаем текущий час в виде строки от 00 до 23
 * и приводим строку к целому числу от 0 до 23
 */
-$hour = strftime('%H');
+$hour = (int)strftime('%H');
 $welcome = '';
     if ($hour > '0' and $hour < '6') $welcome = "Доброй ночи";
     elseif ($hour >= '6' and $hour < '12') $welcome = "Доброе утро";
