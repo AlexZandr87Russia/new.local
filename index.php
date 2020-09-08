@@ -25,11 +25,20 @@ if($month=="12") $mon="декабря";
 */
 $hour = (int)strftime('%H');
 $welcome = '';
-    if ($hour > '0' and $hour < '6') $welcome = "Доброй ночи";
-    elseif ($hour >= '6' and $hour < '12') $welcome = "Доброе утро";
-    elseif ($hour >= '12' and $hour < '18') $welcome = "Добрый день";
-    elseif ($hour >= '18' and $hour < '23') $welcome = "Добрый вечер";
-    else $welcome = "Доброй ночи";
+ /*   if ($hour > '0' and $hour < '6'): $welcome = "Доброй ночи";
+    elseif ($hour >= '6' and $hour < '12'): $welcome = "Доброе утро";
+    elseif ($hour >= '12' and $hour < '18'): $welcome = "Добрый день";
+    elseif ($hour >= '18' and $hour < '23'): $welcome = "Добрый вечер";
+    else: $welcome = "Доброй ночи";endif;
+ Далее представленно тоже самое только с помощью функции switch.
+ */
+switch ($hour) {
+    case ($hour > '0' and $hour < '6'): $welcome = "Доброй ночи"; break;
+    case ($hour >= '6' and $hour < '12'): $welcome = "Доброе утро"; break;
+    case ($hour >= '12' and $hour < '18'): $welcome = "Добрый день"; break;
+    case ($hour >= '18' and $hour < '23'): $welcome = "Добрый вечер"; break;
+    default: $welcome = "Доброй ночи";
+}
 ?>
 <!DOCTYPE html>
 <html>
