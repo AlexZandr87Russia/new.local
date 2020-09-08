@@ -1,3 +1,26 @@
+<?php
+/*
+ini_get("post_max_size");
+50M
+1G
+1234K
+123456789
+*/
+$pms = ini_get("post_max_size");
+$spms = strtoupper($pms[strlen($pms)-1]);
+$b="";
+//echo $spms;
+switch ($spms){
+    case "G": $b = (int)$pms * 1024;
+    case "M": $b = (int)$pms * 1024;
+    case "K": $b = (int)$pms * 1024;
+        break;
+    default: $b = (int)$pms;
+}
+
+echo $b;
+
+?>
 <!DOCTYPE html>
 <html>
 

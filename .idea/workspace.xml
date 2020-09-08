@@ -29,9 +29,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="07/09_work_index_3">
+    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="08/09_work_index_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
+  <component name="RunManager" selected="PHP Script.contact.php">
+    <configuration name="contact.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contact.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -85,9 +93,11 @@
     <list>
       <item itemvalue="PHP Script.index.php" />
       <item itemvalue="PHP Script.test.php" />
+      <item itemvalue="PHP Script.contact.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.contact.php" />
         <item itemvalue="PHP Script.test.php" />
       </list>
     </recent_temporary>
@@ -106,7 +116,7 @@
       <workItem from="1599045141881" duration="4501000" />
       <workItem from="1599214241732" duration="4346000" />
       <workItem from="1599477827332" duration="4815000" />
-      <workItem from="1599565641859" duration="1910000" />
+      <workItem from="1599565641859" duration="4509000" />
     </task>
     <task id="LOCAL-00001" summary="02/09_work_1">
       <created>1599045277155</created>
@@ -185,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599483550065</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="08/09_work_index_1">
+      <created>1599567694304</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599567694304</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +232,8 @@
     <MESSAGE value="07/09_work_index_1" />
     <MESSAGE value="07/09_work_index_2" />
     <MESSAGE value="07/09_work_index_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="07/09_work_index_3" />
+    <MESSAGE value="08/09_work_index_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="08/09_work_index_1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1599133676012">
@@ -230,6 +248,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1598972597341" />
+    <state x="484" y="95" key="#contact.php" timestamp="1599567799102">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="95" key="#contact.php/0.0.1536.824@0.0.1536.824" timestamp="1599567799102" />
     <state x="484" y="95" key="#index.php" timestamp="1599045722070">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -242,22 +264,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599133673495" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599482899111">
+    <state width="765" height="210" key="GridCell.Tab.0.bottom" timestamp="1599570132779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599482899111" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599482899111">
+    <state width="765" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599570132779" />
+    <state width="765" height="210" key="GridCell.Tab.0.center" timestamp="1599570132779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599482899111" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599482899111">
+    <state width="765" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599570132779" />
+    <state width="765" height="210" key="GridCell.Tab.0.left" timestamp="1599570132779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599482899111" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599482899111">
+    <state width="765" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599570132779" />
+    <state width="765" height="210" key="GridCell.Tab.0.right" timestamp="1599570132779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599482899111" />
+    <state width="765" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599570132779" />
     <state x="147" y="65" key="MergeDialog" timestamp="1599131500241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,10 +292,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1599131471125" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599483551453">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599567699464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599483551453" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599567699464" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599131490496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
