@@ -6,20 +6,15 @@ ini_get("post_max_size");
 1234K
 123456789
 */
-$pms = ini_get("post_max_size");
-$spms = strtoupper($pms[strlen($pms)-1]);
-$b="";
-//echo $spms;
-switch ($spms){
-    case "G": $b = (int)$pms * 1024;
-    case "M": $b = (int)$pms * 1024;
-    case "K": $b = (int)$pms * 1024;
-        break;
-    default: $b = (int)$pms;
+$size = ini_get("post_max_size");
+$letter = strtoupper($size[strlen($size)-1]);
+$size = (int)$size;
+switch (strtoupper($letter)){
+    case "G": $size *= 1024;
+    case "M": $size *= 1024;
+    case "K": $size *= 1024;
+    default: $size = (int)$size;
 }
-
-echo $b;
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -59,6 +54,7 @@ echo $b;
       <br />
       <input type='submit' value='Отправить' />
     </form>
+      <p>Максимальный размер отправляемых данных: <?=$size;?> байт.</p>
     <!-- Область основного контента -->
   </div>
   <div id="nav">
