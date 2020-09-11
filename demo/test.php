@@ -1,11 +1,2 @@
 <?
-$shop = true;
-$money = true;
-
-if ($shop and $money)
-{
-    echo "Иду в магазаин\n";
-    echo "Покупаю хлеб\n";
-}
-
-echo "Иду домой";
+for ($i = 1; $i <= 10; print $i++."\n");
