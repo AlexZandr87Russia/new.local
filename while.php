@@ -1,9 +1,15 @@
 <?php
 $var = "HELLO";
-$i = 0;
-$len = strlen($var);
+$arr = serialize($var);
 
-while ($i < $len){
+var_dump ($arr);
+/*
+$var = "HELLO";
+$count = (int)strlen($var);
+$i = 0;
+while ($i<$count) {
+
     echo $var{$i++}."\n";
 
 }
+*/
