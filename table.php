@@ -1,3 +1,10 @@
+<?php
+$cols = 10;
+$rows = 10;
+$i = 1;
+$j = 1;
+$color = "#ff00a1";
+?>
 <!DOCTYPE html>
 <html>
 
@@ -38,43 +45,20 @@
       <input type='submit' value='Создать' />
     </form>
     <!-- Таблица -->
-    <table border='1' width="200">
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-        <td>4</td>
-        <td>5</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>4</td>
-        <td>6</td>
-        <td>8</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>6</td>
-        <td>9</td>
-        <td>12</td>
-        <td>15</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>8</td>
-        <td>12</td>
-        <td>16</td>
-        <td>10</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>10</td>
-        <td>15</td>
-        <td>20</td>
-        <td>25</td>
-      </tr>
-    </table>
+<?php
+echo "<table border='1' >\n";
+for ($i=1;$i<=$cols;$i++) {
+echo "\t<tr>\n";
+    for ($j=1;$j<=$rows;$j++) {
+        if ($j==1 or $i==1)
+        echo "\t<th align='center' style='background-color: $color;'>".$j*$i."</th>\n";
+        else echo "\t<td>".$i*$j."</td>\n";
+    }
+echo "\t</tr>\n";
+}
+echo "</table>\n";
+
+?>
     <!-- Таблица -->
     <!-- Область основного контента -->
   </div>
