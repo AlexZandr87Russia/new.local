@@ -1,9 +1,18 @@
 <?php
-$cols = 11;
-$rows = 11;
-$i = 1;
-$j = 1;
-$color = "#ff00a1";
+function drawTable($cols, $rows, $color){
+    echo "<table border='1' >\n";
+    for ($i=1;$i<=$cols;$i++) {
+        echo "\t<tr>\n";
+        for ($j=1;$j<=$rows;$j++) {
+            if ($j==1 or $i==1)
+                echo "\t<th align='center' style='background-color: $color;'>".$j*$i."</th>\n";
+            else echo "\t<td>".$i*$j."</td>\n";
+        }
+        echo "\t</tr>\n";
+    }
+    echo "</table>\n";
+};
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,18 +55,7 @@ $color = "#ff00a1";
     </form>
     <!-- Таблица -->
 <?php
-echo "<table border='1' >\n";
-for ($i=1;$i<=$cols;$i++) {
-echo "\t<tr>\n";
-    for ($j=1;$j<=$rows;$j++) {
-        if ($j==1 or $i==1)
-        echo "\t<th align='center' style='background-color: $color;'>".$j*$i."</th>\n";
-        else echo "\t<td>".$i*$j."</td>\n";
-    }
-echo "\t</tr>\n";
-}
-echo "</table>\n";
-
+drawTable(20, 20, "#fb635a")
 ?>
     <!-- Таблица -->
     <!-- Область основного контента -->
