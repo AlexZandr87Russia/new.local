@@ -1,11 +1,27 @@
 <?php
-$num = 5;
 
-if ($num == 1 or $num == 2 or $num == 12) $result = "Зима";
-elseif ($num == 3 or $num == 4 or $num == 5) $result = "Весна";
-elseif ($num == 6 or $num == 7 or $num == 8) $result = "Лето";
-elseif ($num ==9 or $num == 10 or $num == 11) $result = "Осень";
-    else $result = "Иди на хуй";
+
+$leftMenu = [
+    ['href' => 'index.php', 'link' => 'Домой'],
+    ['href' => 'about.php', 'link' => 'О нас'],
+    ['href' => 'contact.php', 'link' => 'Контакты'],
+    ['href' => 'table.php', 'link' => 'Таблица умножения'],
+    ['href' => 'calc.php', 'link' => 'Калькулятор']
+];
+
+foreach ($leftMenu as $menu) {
+
+    echo "<li><a href='$menu[href]'>$menu[link]</a>";
+ }
+
+/*
+$num = 12;
+
+    if ($num == 1 or $num == 2 or $num == 12) $result = "Зима";
+    elseif ($num >= 3 and $num <= 5) $result = "Весна";
+    elseif ($num >= 6 and $num <= 8) $result = "Лето";
+    elseif ($num >= 9 and $num <= 11) $result = "Осень";
+      else $result = "Иди на хуй";
 
 echo $result;
 

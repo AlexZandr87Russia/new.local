@@ -1,6 +1,6 @@
 <?php
-$cols = 10;
-$rows = 10;
+$cols = 11;
+$rows = 11;
 $i = 1;
 $j = 1;
 $color = "#ff00a1";
