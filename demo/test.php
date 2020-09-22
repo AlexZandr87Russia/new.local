@@ -1,19 +1,20 @@
+<form name="feedback" method="POST" action="test.php">
+    <label>Введите день недели от 1 до 7: <input type="text" name="day"></label>
+    <input type="submit" name="send" value="Отправить">
+</form>
+
 <?php
+$arr = ['1' => 'Понедельник', 'Вториник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
 
+if (isset($_POST['day']) and $_POST['day']<=7 and is_numeric($_POST['day']) and $_POST['day']!=0) {
+    foreach ($arr as $key => $week) {
 
-$leftMenu = [
-    ['href' => 'index.php', 'link' => 'Домой'],
-    ['href' => 'about.php', 'link' => 'О нас'],
-    ['href' => 'contact.php', 'link' => 'Контакты'],
-    ['href' => 'table.php', 'link' => 'Таблица умножения'],
-    ['href' => 'calc.php', 'link' => 'Калькулятор']
-];
+        if ($key == $_POST['day']) echo "<span style='font-weight: bold;color: #a52a2a;'>$week</span><br>\n";
 
-foreach ($leftMenu as $menu) {
-
-    echo "<li><a href='$menu[href]'>$menu[link]</a>";
- }
-
+        else echo "$week<br>\n";
+    }
+}
+if ($_POST['day']>7 or !is_numeric($_POST['day']) and isset($_POST['day'])) echo "<p style='font-weight: bold;color: #a52a2a;'>Введенные не верные данные</p>";
 /*
 $num = 12;
 
