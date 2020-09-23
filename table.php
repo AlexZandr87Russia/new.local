@@ -1,5 +1,7 @@
 <?php
+$cnt = 0;
 function drawTable($cols, $rows, $color){
+$GLOBALS["cnt"]++;
     echo "<table border='1' >\n";
     for ($i=1;$i<=$cols;$i++) {
         echo "\t<tr>\n";
@@ -12,7 +14,6 @@ function drawTable($cols, $rows, $color){
     }
     echo "</table>\n";
 };
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -55,7 +56,10 @@ function drawTable($cols, $rows, $color){
     </form>
     <!-- Таблица -->
 <?php
-drawTable(20, 20, "#fb635a")
+drawTable(20, 20, "#fb635a");
+drawTable(10, 10, "#747fe4");
+drawTable(5, 5, "#78f33c");
+echo "Таблица отрисованна $cnt раз(a)"
 ?>
     <!-- Таблица -->
     <!-- Область основного контента -->

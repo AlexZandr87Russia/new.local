@@ -1,4 +1,17 @@
 <?php
+function DrawMenu($menu, $vertical = true){
+    if (!$vertical) echo "<ul style='text-align:center;'>\n";
+    else echo  "<ul>\n";
+    foreach ($menu as $item) {
+        if (!$vertical) echo "\t<li style='display: inline; padding-right: 15px;'>\n";
+        else echo "\t<li>\n";
+        echo "\t\t<a href='{$item['href']}'>{$item['link']}</a>\n";
+        echo "\t</li>\n";
+
+    }
+    echo  "</ul>\n";
+
+};
 // Установка локали и выбор значений даты
 setlocale(LC_ALL, 'russian');
 $day = strftime('%d');
@@ -93,18 +106,15 @@ $leftMenu = [
     <h2>Навигация по сайту</h2>
     <!-- Меню -->
 <?php
-  echo  "<ul>\n";
-         foreach ($leftMenu as $menu) {
-             echo "\t<li>\n";
-echo "\t\t<a href='{$menu['href']}'>{$menu['link']}</a>\n";
-             echo "\t</li>\n";
-
-         }
-    echo  "</ul>\n";
+DrawMenu($leftMenu, $vertical = true)
 ?>
     <!-- Меню -->
     <!-- Навигация -->
   </div>
+  <hr>
+  <?php
+  DrawMenu($leftMenu, $vertical = false)
+  ?>
   <div id="footer">
     <!-- Нижняя часть страницы -->
     &copy; Супер Мега Веб-мастер, 2000 &ndash; <?=$year?>
