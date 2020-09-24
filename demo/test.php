@@ -1,11 +1,25 @@
+<!--
 <form name="feedback" method="POST" action="test.php">
-    <label>Введите день недели от 1 до 7: <input type="text" name="day"></label>
+    <label>Введите свой возарст: <input type="text" value="<?=$_POST['age']?>" name="age"></label>
     <input type="submit" name="send" value="Отправить">
 </form>
-
+-->
 <?php
-$arr = ['1' => 'Понедельник', 'Вториник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
 
+
+/*
+if (isset($_POST['age'])) {
+    if (!is_numeric($_POST['age'])) echo "Не является числом";
+    elseif ($_POST['age']<3) echo "А не мало?!";
+    elseif ($_POST['age']>99) echo "А не дохуя?!";
+    elseif ($_POST['age']>=70) echo "Здравствуйте, уважаемый!";
+    elseif ($_POST['age']>99) echo "А не дохя?!";
+    elseif ($_POST['age']<70) echo "Привет, молодой!";
+
+}
+
+
+$arr = ['1' => 'Понедельник', 'Вториник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
 if (isset($_POST['day']) and $_POST['day']<=7 and is_numeric($_POST['day']) and $_POST['day']!=0) {
     foreach ($arr as $key => $week) {
 
@@ -15,18 +29,17 @@ if (isset($_POST['day']) and $_POST['day']<=7 and is_numeric($_POST['day']) and 
     }
 }
 if ($_POST['day']>7 or !is_numeric($_POST['day']) and isset($_POST['day'])) echo "<p style='font-weight: bold;color: #a52a2a;'>Введенные не верные данные</p>";
-/*
-$num = 12;
 
+/*
+function season($num) {
     if ($num == 1 or $num == 2 or $num == 12) $result = "Зима";
     elseif ($num >= 3 and $num <= 5) $result = "Весна";
     elseif ($num >= 6 and $num <= 8) $result = "Лето";
     elseif ($num >= 9 and $num <= 11) $result = "Осень";
       else $result = "Иди на хуй";
-
 echo $result;
-
-
+}
+season(1);
 
 /*
 if ($x > 50) $result = $x*$x;
