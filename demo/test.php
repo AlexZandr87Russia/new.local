@@ -1,5 +1,24 @@
 
 <?php
+function form(){
+$country = ['Германия','Франция','Испнаия'];
+foreach ($country as $f)
+    echo "<option value='$f'>$f</option>\n";
+}
+function result(){
+    if ($_POST['country'] == 'Германия') echo 'Берлин';
+    elseif ($_POST['country'] == 'Франция') echo 'Париж';
+    elseif ($_POST['country'] == 'Испнаия') echo 'Мадрид';
+}
+?>
+<form name="capital" method="POST" action="test.php">
+    <p><select style="width:165px; height: 25px;" name="country"></p>
+    <option value="0">Выберите Город</option>
+            <p><?php form()?></p></select><br>
+    <p><input type="submit" name="send" value="Отправить"></p>
+    <p><?php result()?></p>
+<?php
+/*
 
 $country = $_POST['country'];
 $day = $_POST['day'];
