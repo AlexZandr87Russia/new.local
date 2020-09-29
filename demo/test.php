@@ -1,11 +1,49 @@
-<!--
-<form name="feedback" method="POST" action="test.php">
-    <label>Введите свой возарст: <input type="text" value="<?=$_POST['age']?>" name="age"></label>
-    <input type="submit" name="send" value="Отправить">
-</form>
--->
+
 <?php
-$arr = [[1,3,4],2,3,4];
+
+$country = $_POST['country'];
+$day = $_POST['day'];
+$sale = $_POST['sale'];
+$result = 400;
+$none = "";
+$checked = "";
+if ($_POST['send'])
+{
+if (empty($country)) $err1 = "<span style='color: #fb635a;font-style: italic;'>Выбериет страну отдыха</span><br>";
+if (!is_numeric($day) or empty($day)) $err2 = "<span style='color: #fb635a;font-style: italic;'>Некорректно введено<br>количество дней отдыха</span>";
+    if ($country == "Египет" and !empty($country) and !empty($day)) $result += $result*0.1;
+    if ($country == "Италия" and !empty($country) and !empty($day)) $result += $result*0.12;
+    if (!empty($country) and !empty($day) and is_numeric($day))
+    $result = $result*$day;
+    if ($sale) {
+    $result = $result-($result*0.05);
+    $checked = " checked";}
+}
+if ($country == "Турция") {$none1 = " style = 'display: none;'";}
+if ($country == "Египет") {$none2 = " style = 'display: none;'";}
+if ($country == "Италия") {$none3 = " style = 'display: none;'";}
+?>
+
+
+<form name="feedback" method="POST" action="test.php">
+    <p>Выберете страну:<br><select style="width:165px; height: 25px;" name="country">
+            <option><?=$country?></option>
+<option<?=$none1?>>Турция</option>
+<option<?=$none2?>>Египет</option>
+<option<?=$none3?>>Италия</option>
+</select><br><?="$err1"?></p>
+<p><label>Количество дней отдыха<br><input value="<?=$day?>" style="width:165px; height: 25px;" name="day"></label><br>
+    <?="$err2"?></p>
+<input type="checkbox"<?=$checked?> name="sale">Наличие скидки<br><br>
+<input type="submit" name="send" value="Отправить">
+</form>
+<p>Cтоимость тура:<?php if (!empty($country) and !empty($day))echo "<span style='color: #fb635a;'> {$result} ₽</span>"?></p>
+
+
+<?php
+
+/*
+
 
 function my_count($var, $mode = 0){
     if (is_null($var)) return 0;
