@@ -1,5 +1,34 @@
-
 <?php
+$name = $_POST['name'];
+$mail = $_POST['mail'];
+$send = $_POST['send'];
+$result = "";
+
+
+
+if (isset($name) and isset($mail)) $result = "Имя: $name\n<br>E-mail: $mail";
+
+if ($send){
+if (empty($mail) and ($name)) {$result = "Имя: <span style='color: crimson'>Поле заполненно не верно!</span>\n<br>E-mail:<span style='color: crimson'>Поле заполненно не верно!</span>";}
+if (empty($name)) {$result = "Имя: <span style='color: crimson'>Поле заполненно не верно!</span>\n<br>E-mail: $mail";}
+if (empty($mail)) {$result = "Имя: $name\n<br>E-mail:<span style='color: crimson'>Поле заполненно не верно!</span>";}
+
+}
+
+
+?>
+
+
+    <form name="feedback" method="POST" action="test.php">
+        <p><label>Ваше имя<br><input value="" style="width:165px; height: 25px;" name="name"></label><br>
+            </p>
+        <p><label>Ваше E-Mail<br><input value="" style="width:165px; height: 25px;" name="mail"></label><br>
+        </p>
+        <input type="submit" name="send" value="Отправить">
+    </form>
+<?php echo $result?>
+<?php
+/*
 function form(){
 $country = ['Германия','Франция','Испнаия'];
 foreach ($country as $f)
@@ -18,7 +47,7 @@ function result(){
     <p><input type="submit" name="send" value="Отправить"></p>
     <p><?php result()?></p>
 <?php
-/*
+
 
 $country = $_POST['country'];
 $day = $_POST['day'];
