@@ -1,19 +1,6 @@
 <?php
-$cnt = 0;
-function drawTable($cols, $rows, $color){
-$GLOBALS["cnt"]++;
-    echo "<table border='1' >\n";
-    for ($i=1;$i<=$cols;$i++) {
-        echo "\t<tr>\n";
-        for ($j=1;$j<=$rows;$j++) {
-            if ($j==1 or $i==1)
-                echo "\t<th align='center' style='background-color: $color;'>".$j*$i."</th>\n";
-            else echo "\t<td>".$i*$j."</td>\n";
-        }
-        echo "\t</tr>\n";
-    }
-    echo "</table>\n";
-};
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -56,10 +43,8 @@ $GLOBALS["cnt"]++;
     </form>
     <!-- Таблица -->
 <?php
-drawTable(20, 20, "#fb635a");
-drawTable(10, 10, "#747fe4");
-drawTable(5, 5, "#78f33c");
-echo "Таблица отрисованна $cnt раз(a)"
+drawTable(12, 12, "#fb635a");
+
 ?>
     <!-- Таблица -->
     <!-- Область основного контента -->

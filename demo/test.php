@@ -1,4 +1,9 @@
-<?php
+<?
+
+print 2 + strlen('HELLO');
+
+
+/*
 $name = $_POST['name'];
 $mail = $_POST['mail'];
 $send = $_POST['send'];
@@ -16,7 +21,7 @@ if (empty($mail)) {$result = "Имя: $name\n<br>E-mail:<span style='color: crim
 }
 
 
-?>
+
 
 
     <form name="feedback" method="POST" action="test.php">
