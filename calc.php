@@ -1,3 +1,7 @@
+<?php
+require_once 'inc/lib.inc.php';
+require_once 'inc/data.inc.php';
+?>
 <!DOCTYPE html>
 <html>
 
@@ -11,8 +15,9 @@
 
   <div id="header">
     <!-- Верхняя часть страницы -->
-    <img src="logo.gif" width="187" height="29" alt="Наш логотип" class="logo" />
-    <span class="slogan">приходите к нам учиться</span>
+      <?
+      require_once 'inc/top.inc.php'
+      ?>
     <!-- Верхняя часть страницы -->
   </div>
 
@@ -39,28 +44,19 @@
     </form>
     <!-- Область основного контента -->
   </div>
+  </div>
   <div id="nav">
-    <h2>Навигация по сайту</h2>
-    <!-- Меню -->
-    <ul>
-      <li><a href='index.php'>Домой</a>
-      </li>
-      <li><a href='about.php'>О нас</a>
-      </li>
-      <li><a href='contact.php'>Контакты</a>
-      </li>
-      <li><a href='table.php'>Таблица умножения</a>
-      </li>
-      <li><a href='calc.php'>Калькулятор</a>
-      </li>
-    </ul>
-    <!-- Меню -->
+      <!-- Навигация -->
+      <?
+      require_once 'inc/menu.inc.php'
+      ?>
+      <!-- Навигация -->
   </div>
-  <div id="footer">
     <!-- Нижняя часть страницы -->
-    &copy; Супер Мега Веб-мастер, 2000 &ndash; 2015
+      <?
+      require_once 'inc/bottom.inc.php'
+      ?>
     <!-- Нижняя часть страницы -->
-  </div>
 </body>
 
 </html>
