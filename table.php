@@ -20,7 +20,9 @@ require_once 'inc/data.inc.php';
       ?>
     <!-- Верхняя часть страницы -->
   </div>
-
+  <?
+  require_once 'inc/date.inc.php'
+  ?>
   <div id="content">
     <!-- Заголовок -->
     <h1>Таблица умножения</h1>
