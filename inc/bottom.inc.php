@@ -1,6 +1,7 @@
 <div id="footer">
     <?php
-    DrawMenu($leftMenu, $vertical = false)
+    if (!DrawMenu($leftMenu, $vertical = false))
+        echo ERR_LEFT_MENU;
     ?>
     <hr>
     &copy; Супер Мега Веб-мастер, 2000 &ndash; <?=$year?>

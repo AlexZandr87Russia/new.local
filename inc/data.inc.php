@@ -1,5 +1,6 @@
 <?php
 $year = strftime('%Y');
+const ERR_LEFT_MENU = 'Пиздяу';
 $leftMenu = [
     ['href' => 'index.php', 'link' => 'Домой'],
     ['href' => 'about.php', 'link' => 'О нас'],

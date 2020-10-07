@@ -17,8 +17,9 @@ function drawTable($cols, $rows, $color)
     echo "<br>$cnt копия таблицы.<br>";
 
 };
-
 function DrawMenu($menu, $vertical = true){
+    if (!is_array($menu))
+        return false;
     $style="";
     if (!$vertical)
         $style =" style = 'display: inline; margin-right: 15px;'";
@@ -30,5 +31,5 @@ function DrawMenu($menu, $vertical = true){
 
     }
     echo  "</ul>\n";
-
+    return true;
 };

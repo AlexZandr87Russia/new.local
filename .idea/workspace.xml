@@ -29,14 +29,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/10_work_index_2">
-      <change afterPath="$PROJECT_DIR$/inc/date.inc.php" afterDir="false" />
+    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/10_work_index_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/calc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/data.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/data.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/lib.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/lib.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/menu.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/menu.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,24 +67,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
-  <component name="RunManager" selected="PHP Script.index.php">
-    <configuration name="contact.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/contact.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.1" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
-    <configuration name="for.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/for.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="PHP 7.1" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.lib.inc.php">
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="lib.inc.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/inc/lib.inc.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 7.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="menu.inc.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/inc/menu.inc.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="PHP 7.1" />
@@ -122,18 +119,18 @@
     <list>
       <item itemvalue="PHP Script.index.php" />
       <item itemvalue="PHP Script.test.php" />
-      <item itemvalue="PHP Script.contact.php" />
-      <item itemvalue="PHP Script.for.php" />
       <item itemvalue="PHP Script.while.php" />
       <item itemvalue="PHP Script.table.php" />
+      <item itemvalue="PHP Script.menu.inc.php" />
+      <item itemvalue="PHP Script.lib.inc.php" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.lib.inc.php" />
+        <item itemvalue="PHP Script.menu.inc.php" />
         <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.table.php" />
         <item itemvalue="PHP Script.while.php" />
-        <item itemvalue="PHP Script.for.php" />
-        <item itemvalue="PHP Script.contact.php" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +166,10 @@
       <workItem from="1601356284027" duration="9206000" />
       <workItem from="1601462955882" duration="6100000" />
       <workItem from="1601556685624" duration="2050000" />
-      <workItem from="1601621541077" duration="3204000" />
+      <workItem from="1601621541077" duration="4532000" />
+      <workItem from="1601898028391" duration="3863000" />
+      <workItem from="1601973896799" duration="1284000" />
+      <workItem from="1602060419440" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="02/09_work_1">
       <created>1599045277155</created>
@@ -388,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601624365535</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="02/10_work_index_3">
+      <created>1601624755181</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601624755181</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +414,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="02/09_work_index_5" />
     <MESSAGE value="03/09_work_index_1" />
     <MESSAGE value="04/09_work_index_1" />
     <MESSAGE value="04/09_work_index_2" />
@@ -432,7 +438,8 @@
     <MESSAGE value="01/10_work_index_2" />
     <MESSAGE value="02/10_work_index_1" />
     <MESSAGE value="02/10_work_index_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/10_work_index_2" />
+    <MESSAGE value="02/10_work_index_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/10_work_index_3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1599133676012">
@@ -463,6 +470,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="95" key="#index.php/0.0.1536.824@0.0.1536.824" timestamp="1599045722070" />
+    <state x="669" y="202" key="#lib.inc.php" timestamp="1602060529373">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="202" key="#lib.inc.php/0.0.1920.1040@0.0.1920.1040" timestamp="1602060529373" />
+    <state x="669" y="202" key="#menu.inc.php" timestamp="1601899306397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="669" y="202" key="#menu.inc.php/0.0.1920.1040@0.0.1920.1040" timestamp="1601899306397" />
     <state x="484" y="95" key="#table.php" timestamp="1600256055218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -483,26 +498,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599133673495" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1601623372963">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1602071048059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601623372963" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1601623372963">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1602071048059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601623372963" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1601623372963">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1602071048059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601623372963" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1601623372963">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1602071048059">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601623372963" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
     <state x="147" y="65" key="MergeDialog" timestamp="1599131500241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -524,11 +539,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1599131471125" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601624366944">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601624757843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601467534417" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601624366944" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601624757843" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599131490496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -542,5 +557,20 @@
     </state>
     <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601277227956" />
     <state x="539" y="183" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601556701546" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/data.inc.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/data.inc.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
