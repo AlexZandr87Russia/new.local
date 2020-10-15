@@ -1,37 +1,79 @@
-<?
+<?php
 
-print 2 + strlen('HELLO');
+$count = 0;
+for ($i = 1; $i <= 999; $i++) {
+
+    $z = str_split($i);
+    $sum = array_sum($z);
 
 
+
+  $lo = str_split($sum);
+
+  print_r($lo)."\n<br>";
+}
+
+?>
+
+<?php
 /*
-$name = $_POST['name'];
-$mail = $_POST['mail'];
-$send = $_POST['send'];
-$result = "";
+$randCount = 3; //Количество элементов массива
+$randMin = 0; //Минимальное рандомное число
+$randMax = 100; //Максимальное рандомное число
+$randArray = array(); //Инициализируем массив
+
+/**
+ * Цикл будем повторять до упора.
+ * Важно! Если rage (интервал), между $randMin и $randMax
+ * будет меньше $randCount, цикл будет бесконечным!
+ * Это очень важное замечание, так что решение "не для всех"
+ * Однако, снабжено комментариями ;)
+ */
+/*
+while (true) { //Погнали
+    $rand = rand($randMin, $randMax); //Формируем рандомное число
+    if (!in_array($rand, $randArray)) { //Если такого числа в массиве нет
+        $randArray[] = $rand; //Добавляем его
+        if (sizeof($randArray)  == $randCount) { //Если массив заполнен до упора
+            break; //Выходим из цикла
+        }
+    }
+}
+
+print_r($randArray); //Выводим массив
+/*
+ * for ($i=0; $i < 100 ; $i++) {
+if (strpos($i, "7", 0) !== false and $i % 3 ==0 ) {
+echo "$i\n";
+
+}
+}
+
+$arr = ["Понедельник", "Вотрник", "Среда", "Четверг", "Пятница", "Суббота", "Воскресенье"];
+
+$day = (int)$_POST["day"] - 1;
+
+if ($day>7 or $day<=0) $result = "Нужно значние от 1 до 7";
+//if (!is_int($day)) $result = "Нужно числовое значние от 1 до 7";
 
 
+    <form name="feedback" method="POST" action="test.php">
+        <p><label>День недели<br><input value="" style="width:165px; height: 25px;" name="day"></label><br>
+            </p>
+        <input type="submit" name="send" value="Отправить">
+    </form>
+<?php
+if ($day>6 or $day<0) echo "<span style='color: brown'>Нужно значние от 1 до 7</span> <br><br>";
+foreach ($arr as $key => $v){
+ if ($key != $day)    echo "$v\n<br>";
+    if ( $key == $day) echo "<span style='color: #fb635a; font-size: 25px;'>$v</span>\n<br>";
 
-if (isset($name) and isset($mail)) $result = "Имя: $name\n<br>E-mail: $mail";
-
-if ($send){
-if (empty($mail) and ($name)) {$result = "Имя: <span style='color: crimson'>Поле заполненно не верно!</span>\n<br>E-mail:<span style='color: crimson'>Поле заполненно не верно!</span>";}
-if (empty($name)) {$result = "Имя: <span style='color: crimson'>Поле заполненно не верно!</span>\n<br>E-mail: $mail";}
-if (empty($mail)) {$result = "Имя: $name\n<br>E-mail:<span style='color: crimson'>Поле заполненно не верно!</span>";}
 
 }
 
 
+?>
 
-
-
-    <form name="feedback" method="POST" action="test.php">
-        <p><label>Ваше имя<br><input value="" style="width:165px; height: 25px;" name="name"></label><br>
-            </p>
-        <p><label>Ваше E-Mail<br><input value="" style="width:165px; height: 25px;" name="mail"></label><br>
-        </p>
-        <input type="submit" name="send" value="Отправить">
-    </form>
-<?php echo $result?>
 <?php
 /*
 function form(){

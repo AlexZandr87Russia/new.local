@@ -1,5 +1,6 @@
 <?php
 require_once 'inc/lib.inc.php';
+set_error_handler('Myerror');
 require_once 'inc/data.inc.php';
 $hour = (int)strftime('%H');
 $welcome = '';

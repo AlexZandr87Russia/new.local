@@ -1,4 +1,17 @@
 <?php
+function Myerror($no, $msg, $file, $line) {
+    $dt = date("d-m-Y H:i:s");
+    $str = "[$dt] - $msg in $file:$line\n";
+switch ($no) {
+    case E_USER_ERROR:
+    case E_USER_WARNING:
+    case E_USER_NOTICE:
+        echo $msg;
+   // default: echo $msg;
+}
+    error_log("$str\n", 3, "error.log");
+}
+
 function drawTable($cols, $rows, $color)
 {
     static $cnt = 0;
@@ -16,7 +29,7 @@ function drawTable($cols, $rows, $color)
     echo "</table>\n";
     echo "<br>$cnt копия таблицы.<br>";
 
-};
+}
 function DrawMenu($menu, $vertical = true){
     if (!is_array($menu))
         return false;
@@ -32,4 +45,4 @@ function DrawMenu($menu, $vertical = true){
     }
     echo  "</ul>\n";
     return true;
-};
+}

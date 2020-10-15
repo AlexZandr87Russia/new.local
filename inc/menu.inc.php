@@ -2,6 +2,6 @@
 <!-- Меню -->
 <?php
 if (!DrawMenu($leftMenu, $vertical = true))
-    echo ERR_LEFT_MENU;
+    trigger_error(ERR_LEFT_MENU, E_USER_ERROR);
 ?>
 <!-- Меню -->

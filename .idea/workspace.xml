@@ -31,9 +31,11 @@
   <component name="ChangeListManager">
     <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/10_work_index_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/data.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/data.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/bottom.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/bottom.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/lib.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/lib.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/menu.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/menu.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
-  <component name="RunManager" selected="PHP Script.lib.inc.php">
+  <component name="RunManager" selected="PHP Script.test.php">
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -126,9 +128,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.lib.inc.php" />
         <item itemvalue="PHP Script.menu.inc.php" />
-        <item itemvalue="PHP Script.test.php" />
         <item itemvalue="PHP Script.table.php" />
         <item itemvalue="PHP Script.while.php" />
       </list>
@@ -169,7 +171,12 @@
       <workItem from="1601621541077" duration="4532000" />
       <workItem from="1601898028391" duration="3863000" />
       <workItem from="1601973896799" duration="1284000" />
-      <workItem from="1602060419440" duration="1760000" />
+      <workItem from="1602060419440" duration="4123000" />
+      <workItem from="1602243388531" duration="3155000" />
+      <workItem from="1602489773445" duration="8770000" />
+      <workItem from="1602569085373" duration="11032000" />
+      <workItem from="1602665422921" duration="1345000" />
+      <workItem from="1602763832676" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="02/09_work_1">
       <created>1599045277155</created>
@@ -395,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601624755181</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="02/10_work_index_3">
+      <created>1602071365967</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1602071365967</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,34 +504,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="484" y="95" key="#while.php/0.0.1536.824@0.0.1536.824" timestamp="1599828617232" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1600254936957">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="116" y="117" width="1688" height="806" key="DiffContextDialog" timestamp="1602492317568">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1600254936957" />
+    <state x="116" y="117" width="1688" height="806" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602492317568" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1599133673495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599133673495" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1602071048059">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1602665479778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1602071048059">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602665479778" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1602665479778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1602071048059">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602665479778" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1602665479778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1602071048059">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602665479778" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1602665479778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601468461373" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602071048059" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602665479778" />
     <state x="147" y="65" key="MergeDialog" timestamp="1599131500241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -539,11 +554,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1599131471125" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1601624757843">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1602071368335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601467534417" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601624757843" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602071368335" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599131490496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -569,6 +584,11 @@
           <url>file://$PROJECT_DIR$/inc/data.inc.php</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/menu.inc.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
