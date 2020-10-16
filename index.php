@@ -1,4 +1,28 @@
 <?php
+// Инициализация заголовков страницы
+$title = 'Сайт нашей школы';
+
+$id = strtolower(strip_tags(trim($_GET['id'])));
+switch ($id){
+    case 'about':
+        $title = 'О сайте';
+        $header = 'О нашем сайте';
+        break;
+    case 'contact':
+        $title = 'Контакты';
+        $header = 'Обратная связь';
+        break;
+    case 'table':
+        $title = 'Таблица умножения';
+        $header = 'Таблица умножения';
+        break;
+    case 'calc':
+        $title = 'Онлайн калькулятор';
+        $header = 'Калькулятор';
+        break;
+
+}
+
 require_once 'inc/lib.inc.php';
 set_error_handler('Myerror');
 require_once 'inc/data.inc.php';
@@ -18,13 +42,13 @@ switch ($hour) {
     case ($hour >= '18' and $hour < '23'): $welcome = "Добрый вечер"; break;
     default: $welcome = "Доброй ночи";
 }
-
+$header = "$welcome, Гость!";
 ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-  <title>Сайт нашей школы</title>
+  <title><?php echo $title?></title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -41,14 +65,29 @@ require_once 'inc/top.inc.php'
 
   <div id="content">
     <!-- Заголовок -->
-    <h1><?=$welcome?>, гость!</h1>
+    <h1><?php echo $header?></h1>
     <!-- Заголовок -->
       <?
       require_once 'inc/date.inc.php'
       ?>
     <!-- Область основного контента -->
-      <?
-      require_once 'inc/index.inc.php'
+      <?php
+      switch ($id) {
+          case 'about':
+              include 'about.php';
+              break;
+          case 'contact':
+              include 'contact.php';
+              break;
+          case 'table':
+              include 'table.php';
+              break;
+          case 'calc':
+              include 'calc.php';
+              break;
+          default: include 'inc/index.inc.php';
+
+      }
       ?>
     <!-- Область основного контента -->
   </div>

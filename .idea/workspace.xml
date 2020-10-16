@@ -31,11 +31,13 @@
   <component name="ChangeListManager">
     <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/10_work_index_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/bottom.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/bottom.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/calc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/data.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/data.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/lib.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/lib.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/menu.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/menu.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +178,7 @@
       <workItem from="1602489773445" duration="8770000" />
       <workItem from="1602569085373" duration="11032000" />
       <workItem from="1602665422921" duration="1345000" />
-      <workItem from="1602763832676" duration="599000" />
+      <workItem from="1602763832676" duration="6619000" />
     </task>
     <task id="LOCAL-00001" summary="02/09_work_1">
       <created>1599045277155</created>
@@ -409,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602071365967</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="02/10_work_index_3">
+      <created>1602764755076</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1602764755076</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,11 +563,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1599131471125" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1602071368335">
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2" timestamp="1602764763274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601467534417" />
-    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602071368335" />
+    <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602764763274" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599131490496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

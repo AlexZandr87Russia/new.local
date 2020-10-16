@@ -12,6 +12,20 @@ switch ($no) {
     error_log("$str\n", 3, "error.log");
 }
 
+function mbsize(){
+$size = ini_get("post_max_size");
+$letter = strtoupper($size[strlen($size)-1]);
+$size = (int)$size;
+switch (strtoupper($letter)){
+    case "G": $size *= 1024;
+    case "M": $size *= 1024;
+    case "K": $size *= 1024;
+    default: $size = (int)$size;
+    echo $size;
+}
+}
+
+
 function drawTable($cols, $rows, $color)
 {
     static $cnt = 0;
