@@ -29,10 +29,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/20_work_index_2">
-      <change beforePath="$PROJECT_DIR$/calc.php" beforeDir="false" afterPath="$PROJECT_DIR$/calc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/error.log" afterDir="false" />
-    </list>
+    <list default="true" id="719b84be-4f7a-4f32-81bc-8ab46fe21dc7" name="Default Changelist" comment="02/20_work_index_3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,7 +171,7 @@
       <workItem from="1602665422921" duration="1345000" />
       <workItem from="1602763832676" duration="9586000" />
       <workItem from="1603107325681" duration="2026000" />
-      <workItem from="1603196132999" duration="331000" />
+      <workItem from="1603196132999" duration="652000" />
     </task>
     <task id="LOCAL-00001" summary="02/09_work_1">
       <created>1599045277155</created>
@@ -435,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603196207494</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="02/20_work_index_3">
+      <created>1603196744492</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603196744492</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07/09_work_index_1" />
     <MESSAGE value="07/09_work_index_2" />
     <MESSAGE value="07/09_work_index_3" />
     <MESSAGE value="08/09_work_index_1" />
@@ -479,7 +482,8 @@
     <MESSAGE value="02/16_work_index_1" />
     <MESSAGE value="02/20_work_index_1" />
     <MESSAGE value="02/20_work_index_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="02/20_work_index_2" />
+    <MESSAGE value="02/20_work_index_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="02/20_work_index_3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="67" key="#CLI_Interpreters" timestamp="1599133676012">
@@ -539,10 +543,10 @@
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1600254936957" />
     <state x="116" y="117" width="1688" height="806" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602492317568" />
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1599133673495">
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1603196778731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599133673495" />
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603196778731" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1602851056837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -584,10 +588,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="555" y="128" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1599131471125" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603196210671">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1603196745983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603196210671" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603196745983" />
     <state x="451" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602764763274" />
     <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599131490496">
       <screen x="0" y="0" width="1536" height="824" />
