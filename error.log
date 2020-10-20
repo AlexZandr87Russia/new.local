@@ -140,3 +140,27 @@
 
 [16-10-2020 17:32:13] - Undefined variable: operator in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:18
 
+[20-10-2020 17:17:09] - Undefined variable: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:10
+
+[20-10-2020 17:17:09] - Undefined variable: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:33
+
+[20-10-2020 17:17:09] - Undefined variable: num2 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:35
+
+[20-10-2020 17:17:09] - Undefined variable: num2 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:35
+
+[20-10-2020 17:17:09] - Undefined index: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:42
+
+[20-10-2020 17:17:09] - Undefined index: operator in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:46
+
+[20-10-2020 17:17:09] - Undefined index: num2 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:50
+
+[20-10-2020 17:17:34] - Undefined variable: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:10
+
+[20-10-2020 17:17:34] - Undefined variable: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:33
+
+[20-10-2020 17:17:34] - Undefined index: num1 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:41
+
+[20-10-2020 17:17:34] - Undefined index: operator in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:45
+
+[20-10-2020 17:17:34] - Undefined index: num2 in C:\Soft\OpenServer\domains\localhost\new.local\calc.php:49
+
