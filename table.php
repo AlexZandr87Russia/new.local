@@ -27,6 +27,7 @@ $color = ($color) ? $color : 'red';
       <br />
       <input type='submit' value='Создать' />
     </form>
+<br>
     <!-- Таблица -->
 <?php
 drawTable($cols, $rows, $color);
